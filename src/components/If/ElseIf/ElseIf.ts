@@ -1,9 +1,9 @@
 import React, { createElement } from 'react'
 import If from '../If'
-import { IfCondition } from '../types'
+import { IfComponent } from '../types'
 
 
-const ElseIf: React.FC<IfCondition> = (props) => {
+const ElseIf: React.FC<IfComponent> = (props) => {
   return createElement(If, props)
 }
 

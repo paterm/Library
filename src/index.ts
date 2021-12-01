@@ -1,7 +1,5 @@
-import If from './components/If'
-import Then from './components/If/Then'
-import ElseIf from './components/If/ElseIf'
-import Else from './components/If/Else'
+import If, { Then, ElseIf, Else } from './components/If'
+import Switch, { Case, Default } from './components/Switch'
 
 import Plural from './utils/Plural'
 import DownloadBlob from './utils/DownloadBlob'
@@ -14,6 +12,10 @@ export {
   Then,
   ElseIf,
   Else,
+
+  Switch,
+  Case,
+  Default,
 
   Plural,
   DownloadBlob,

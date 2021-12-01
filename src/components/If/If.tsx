@@ -1,10 +1,10 @@
 import React, { Children, FC } from 'react'
-import { IfCondition } from './types'
+import { IfComponent } from './types'
 import Else from './Else'
 import ElseIf from './ElseIf'
 
 
-const If: FC<IfCondition> = ({
+const If: FC<IfComponent> = ({
   condition,
   children,
 }) => {

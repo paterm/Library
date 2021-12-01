@@ -1,3 +1,3 @@
-export interface IfCondition {
+export interface IfComponent {
   condition: any
 }
