@@ -1,7 +1,10 @@
 import React from 'react'
 import { ComponentStory, ComponentMeta } from '@storybook/react'
 
-import If, { Else, ElseIf, Then } from './index'
+import If from './index'
+import Then from './Then'
+import ElseIf from './ElseIf'
+import Else from './Else'
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
