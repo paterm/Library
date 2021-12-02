@@ -1,4 +1,6 @@
-# React Components Library 🍋
+# React Library 🍋
+
+## Components
 
 React If Conditions:
 ```js
@@ -25,4 +27,28 @@ Switch
     Default
   </Default>
 </Switch>
+```
+
+## Utils
+
+Plural (declension of words)
+```js
+Plural(5, ['лимон', 'лимона', 'лимонов']) // => 5 лимонов
+```
+
+DownloadBlob (downloading blob as file)
+```js
+DownloadBlob(Blob, filename)
+```
+
+## React Hooks
+
+usePrev
+```js
+const prevValue = usePrev(value)
+```
+
+useDebounce
+```js
+const debouncedValue = useDebounce(value, delay = 600)
 ```
