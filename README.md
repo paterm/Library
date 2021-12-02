@@ -29,6 +29,13 @@ Switch
 </Switch>
 ```
 
+Portal
+```js
+<Portal container={document.body}>
+  {children}
+</Portal>
+```
+
 ## Utils
 
 Plural (declension of words)

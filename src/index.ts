@@ -1,5 +1,6 @@
 import If, { Then, ElseIf, Else } from './components/If'
 import Switch, { Case, Default } from './components/Switch'
+import Portal from './components/Portal'
 
 import Plural from './utils/Plural'
 import DownloadBlob from './utils/DownloadBlob'
@@ -16,6 +17,8 @@ export {
   Switch,
   Case,
   Default,
+
+  Portal,
 
   Plural,
   DownloadBlob,
